@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'font-awesome-sass'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
