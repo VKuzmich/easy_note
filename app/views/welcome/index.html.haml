@@ -1,1 +1,32 @@
-%h1 this is the Welcome page
+#banner
+  .banner_content
+    %h1 EasyNote
+    %p Your online notes. Write to remember.
+    %button= link_to 'Sign_up', new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote 'The easiest way to remember important'
+    %p.name .V_K
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Make notes!
+        %p Write it as you have something important or you may forget:)!
+      .callout
+        %h2 Just do it!
+        %p Write it as you have something important or it will fade away!
+      .callout
+        %h2 Get it!
+        %p Write it as you have something important and it will bring joy!
+
+#bottom_cta
+  .wrapper
+    %h2 Want To remember?
+    %p Just sign up...
+    %button= link_to 'Click me!', new_user_registration_path
+
+%footer
+  %p &copy; V_K
